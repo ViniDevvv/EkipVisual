@@ -413,10 +413,10 @@
 
             <!-- Raccourci + Discord -->
             <Grid Grid.Row="6" Margin="0,12,0,0">
-                <TextBlock Text="discord.gg/YUKQRUj9Qs" FontSize="11" Foreground="{StaticResource Accent}"
-                           Cursor="Hand" TextDecorations="Underline" MouseLeftButtonDown="Discord_Click"/>
+                <Button Content="Rejoindre le Discord" Style="{StaticResource AccentBtn}" HorizontalAlignment="Left"
+                        Padding="12,6" FontSize="11" Click="Discord_Click"/>
                 <TextBlock Text="Ctrl+Alt+E : activer/désactiver l'effet" FontSize="11"
-                           Foreground="{StaticResource TextMuted}" HorizontalAlignment="Right"/>
+                           Foreground="{StaticResource TextMuted}" HorizontalAlignment="Right" VerticalAlignment="Center"/>
             </Grid>
 
             <!-- Bas -->

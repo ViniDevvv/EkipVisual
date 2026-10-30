@@ -43,6 +43,6 @@ public partial class MainWindow : Window
 
     private void Minimize_Click(object sender, RoutedEventArgs e) => WindowState = WindowState.Minimized;
 
-    private void Discord_Click(object sender, MouseButtonEventArgs e) =>
+    private void Discord_Click(object sender, RoutedEventArgs e) =>
         Process.Start(new ProcessStartInfo { FileName = "https://discord.gg/YUKQRUj9Qs", UseShellExecute = true });
 }
